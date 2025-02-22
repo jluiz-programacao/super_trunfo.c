@@ -20,7 +20,7 @@
             scanf("%s", &cidade1);
 
             printf("Digite o tamanho da população da cidade: \n");
-            scanf("%f", &Populacao);
+            scanf("%d", &Populacao);
 
             printf("Digite o tamanho da área territorial: \n");
             scanf("%f", &Area);
@@ -33,7 +33,12 @@
 
             printf("carta 1:\n");
             printf("Estado: %s\n", A);
-            printf("Código: %s\n", A01); 
+            printf("Código: %s\n", A01);
+            printf("Nome da Cidade: %s\n", cidade1);
+            printf("População: %d\n", Populacao);
+            printf("Área: %f km²\n", Area);
+            printf("PIB: %f bilhões de reais\n", PIB);
+            printf("Número de Pontos Turísticos: %d\n", Numero_de_pontos_turisticos);
 
     return 0;
 }    
