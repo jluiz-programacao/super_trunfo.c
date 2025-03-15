@@ -68,7 +68,7 @@
 
 
             printf("Digite o número de pontos turísticos do município: \n");
-            scanf("%d", pontos_turisticos2);
+            scanf("%d", &pontos_turisticos2);
             printf("\n\n");
 
             //exibição de dados
@@ -78,8 +78,8 @@
             printf("Código: %s\n", codigo1); //impressão com saída do código da carta//
             printf("Nome da Cidade: %s\n", cidade1); //impressão com saída do nome da cidade//
             printf("População: %d\n", populacao1); //impressão com saída da população//
-            printf("Área: %f km²\n", area1); //impressão com saída da área; acrescentei a unidade depois da variável para sais na impressão//
-            printf("PIB: %f bilhões de reais\n", PIB1); //impressão com saída do valor do PIB; acrescentei a unidade depois da variável para sais na impressão//
+            printf("Área: %.2f km²\n", area1); //impressão com saída da área; acrescentei a unidade depois da variável para sais na impressão//
+            printf("PIB: %.2f bilhões de reais\n", PIB1); //impressão com saída do valor do PIB; acrescentei a unidade depois da variável para sais na impressão//
             printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1); //impressão com saída dos pontos turísticos//
             printf("\n\n"); //comando para melhorar organização - pular linha//
 
@@ -89,8 +89,8 @@
             printf("Código: %s\n", codigo2);
             printf("Nome da Cidade: %s\n", cidade2);
             printf("População: %d\n", populacao2);
-            printf("Área: %f km²\n", area2);
-            printf("PIB: %f bilhões de reais\n", PIB2);
+            printf("Área: %.2f km²\n", area2);
+            printf("PIB: %.2f bilhões de reais\n", PIB2);
             printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
             printf("\n\n");
             
