@@ -10,6 +10,12 @@
         float PIB1, PIB2;
         int pontos_turisticos1, pontos_turisticos2;
 
+        float densidade_demografica;
+        float PIBpercapta;
+
+
+        densidade_demografica = populacao1 / area1;
+        
         
             printf("*** CARTA 1 ***\n\n\n");
 
