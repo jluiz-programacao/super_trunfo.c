@@ -88,13 +88,14 @@
             superpoder2 = (long int) populacao2 + area2 + PIB2 + pontos_turisticos2 + PIBpercapta2 + (1 / densidade_demografica2);
 
 
-            int resultado_população = populacao1 > populacao2;
-            int resultado_area = area1 > area2;
-            int resultado_PIB = PIB1 > PIB2;
-            int resultado_densdemografica = densidade_demografica1 > densidade_demografica2;
-            int PIBpercapta = PIBpercapta1 > PIBpercapta2;
-            int superpoder = superpoder1 > superpoder2; 
-
+            int resultado_populacao = populacao1 > populacao2;
+            float resultado_area = area1 > area2;
+            float resultado_PIB = PIB1 > PIB2;
+            float resultado_densdemografica = densidade_demografica1 > densidade_demografica2;
+            float resultado_PIBpercapta = PIBpercapta1 > PIBpercapta2;
+            int resultado_pontos_turisticos = pontos_turisticos1 > pontos_turisticos2;
+            float resultado_superpoder = superpoder1 > superpoder2; 
+        
             //exibição de dados
 
             printf("carta 1:\n"); //impressão com saída "carta 1"//
@@ -124,8 +125,15 @@
             printf("O valor do super poder é %.2f", superpoder2);
             printf("\n\n");
             
-            
-            populacao1 > populacao2 
+            printf("*** COMPARAÇÃO DE CARTAS ***");
+            printf("\população: Carta 1 venceu! %d\n", resultado_populacao);
+            printf("Área: carta 1 venceu! %f\n", resultado_area);
+            printf("PIB: Carta 1 venceu! %f\n", resultado_PIB);
+            printf("Pontos turísticos: Carta 1 venceu! %d\n", resultado_pontos_turisticos);
+            printf("Densidade demográfica: Carta 1 venceu! %f\n", resultado_densdemografica);
+            printf("PIB per capta: Carta 1 venceu! %f\n", resultado_PIBpercapta);
+            printf("Super Poder: Carta 1 venceu! %f\n", resultado_superpoder);
+
 
 
 
